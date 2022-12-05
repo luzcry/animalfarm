@@ -3,12 +3,16 @@ import reactLogo from './assets/react.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <div>
-     
-    </div>
+    <main>
+      <h1>Animal farm</h1>
+      <input
+        type="text"
+        placeholder="search"
+        onChange={(e) => console.log(e.target.value)}
+      />
+    </main>
   )
 }
 
